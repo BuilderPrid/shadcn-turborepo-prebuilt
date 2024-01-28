@@ -1,0 +1,13 @@
+{
+    "extends": "@repo/typescript-config/react-library.json",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@shadcn/*":["./*"],
+        },
+      "plugins": [{ "name": "next" }]
+    },
+    "include": ["**/*.ts", "**/*.tsx",],
+    "exclude": ["node_modules"]
+}
+  
